@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     <title>Hello, world!</title>
@@ -14,7 +15,7 @@
     <div class="container">
         <nav class="navbar navbar-expand-sm bg-primary text-white">
             <a href="#" class="navbar-brand text-white display-1">Music Performance</a>
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ml-auto">
                 <li class="navbar-item">
                     <a class="nav-link text-white" href="#">Home</a>
                 </li>
@@ -22,21 +23,22 @@
                 <li class="navbar-item">
                     <a class="nav-link text-white" href="#">About</a>
                 </li>
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ml auto">
                 <li class="navbar-item">
                     <a class="nav-link text-white" href="#">Sign Up</a>
                 </li>
-        </ul>
+            </ul>
+        </nav>
     </div>
-    <div class="container">
+    <div class="container col-md-4 col-md-offset-4 text-white text text-center">
         <form>
             <div class="form-group">
               <label for="exampleFormControlInput1">Name</label>
-              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
+              <input type="text" class="form-control text-center" id="exampleFormControlInput1" placeholder="Your Name">
             </div>
             <div class="form-group">
               <label for="exampleFormControlSelect1">Type of Music</label>
-              <select class="form-control" id="exampleFormControlSelect1">
+              <select class="form-control text-center" id="exampleFormControlSelect1">
                 <option>Jazz</option>
                 <option>Rock</option>
                 <option>Hip Hop</option>
@@ -46,7 +48,7 @@
             </div>
             <div class="form-group">
               <label for="exampleFormControlSelect2">Example multiple select</label>
-              <select multiple class="form-control" id="exampleFormControlSelect2">
+              <select multiple class="form-control text-center" id="exampleFormControlSelect2">
                 <option>Electric Guitar</option>
                 <option>Piano</option>
                 <option>Trumpet</option>
@@ -56,13 +58,14 @@
             </div>
             <div class="form-group">
               <label for="exampleFormControlTextarea1">Additional Comments</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              <textarea class="form-control text-center" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
             <div class="text-center">
                 <button class="btn btn-primary" type="button">
                     Submit
                 </button>
             </div>
+            <div class="offset-sm-4"></div>
           </form>
     </div>
     <!-- Optional JavaScript -->
